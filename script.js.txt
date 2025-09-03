@@ -1,0 +1,6 @@
+// script.js
+function changeText() {
+    const paragraph = document.getElementById('myParagraph');
+    paragraph.textContent = "The text has been changed by JavaScript!";
+    paragraph.style.color = "blue";
+}
